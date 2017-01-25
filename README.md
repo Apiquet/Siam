@@ -2,7 +2,7 @@ Siam game
 
 To run the game:
 
-$ cd src/
+$ cd src/ \n
 $ make
 $ cd ..
 $ cd bin/
