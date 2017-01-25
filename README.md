@@ -2,8 +2,8 @@ Siam game
 
 To run the game:
 
-$ cd src/ \n
-$ make
-$ cd ..
-$ cd bin/
-$ ./jeu_siam
+<p>$ cd src/</p>
+<p>$ make</p>
+<p>$ cd ..</p>
+<p>$ cd bin/</p>
+<p>$ ./jeu_siam</p>
