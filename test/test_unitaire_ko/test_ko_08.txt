@@ -1,0 +1,9 @@
+#test_unitaire_ko_02
+#
+# test l'interdiction déplacer case vide
+lit ../test/test_unitaire_ko/test_ko_08_entree.txt
+d 3 0 ^ ^
+fin
+#Comportement attendu:
+# trois rocher en place initiale, case vide en 3 0, aucune piece ne doit bouger, le mouvement est invalide.
+

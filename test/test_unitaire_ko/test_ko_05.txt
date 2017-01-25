@@ -1,0 +1,9 @@
+#test_unitaire_ko_02
+#
+# test l'interdiction d'entrer la piece
+lit ../test/test_unitaire_ko/test_ko_05_entree.txt
+n 3 0 >
+fin
+#Comportement attendu:
+# trois rocher en place initiale, un elephant vers droite en 3 0, aucune piece ne doit bouger, le mouvement est invalide.
+

@@ -1,0 +1,10 @@
+#test_unitaire_ok_01
+#
+# test si il est possible d'insérer la piece
+lit ../test/test_unitaire_ok/test_ok_10_entree.txt
+n 1 0 ^
+fin
+#comportement attendu:
+#rhinoceros en 1 0, elephant en 1 1 rhinoceros en 1 2 et rocher en 1 3 RRR 
+# introduit un elephant en direction haut en (1,0)
+

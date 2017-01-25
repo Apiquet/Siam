@@ -1,0 +1,9 @@
+#test_unitaire_ko_02
+#
+# test l'interdiction déplacer piece joueur adverse
+lit ../test/test_unitaire_ko/test_ko_07_entree.txt
+d 3 0 ^ ^
+fin
+#Comportement attendu:
+# trois rocher en place initiale, un rinhoceros vers droite en 3 0, aucune piece ne doit bouger, le mouvement est invalide.
+

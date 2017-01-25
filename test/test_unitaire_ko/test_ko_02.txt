@@ -1,0 +1,9 @@
+#test_unitaire_ko_02
+#
+# test l'interdiction d'entrer une piece hors plateau
+lit ../test/test_unitaire_ko/test_ko_02_entree.txt
+n 5 0 ^
+fin
+#Comportement attendu:
+# trois rocher en place initiale, aucune piece ne doit bouger, le mouvement est invalide.
+

@@ -1,0 +1,16 @@
+#Test une suite de mouvements dont certains sont invalides
+lit ../test/test_integration/test_integration_04_entree.txt  
+n 1 0 ^
+n 1 0 v
+n 1 0 ^
+o 1 1 v
+o 1 0 v
+n 1 0 ^
+d 1 1 > >
+d 1 0 ^ ^
+n 0 1 >
+n 0 1 >
+d 1 1 ^ ^
+d 1 1 > >
+d 3 1 ^ ^
+fin

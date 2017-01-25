@@ -1,0 +1,9 @@
+#test_unitaire_ko_02
+#
+# test l'interdiction orienter piece adverse
+lit ../test/test_unitaire_ko/test_ko_10_entree.txt
+o 0 2 ^ 
+fin
+#Comportement attendu:
+# trois rocher en place initiale, rinhoceros en 0 2, aucune piece ne doit bouger, le mouvement est invalide.
+

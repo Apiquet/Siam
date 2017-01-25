@@ -1,0 +1,9 @@
+#test_unitaire_ko_02
+#
+# test l'interdiction poussee impossible
+lit ../test/test_unitaire_ko/test_ko_03_entree.txt
+d 1 2 > >
+fin
+#Comportement attendu:
+# elephant orientation droite en 1 2, rocher à sa droite, rinhoceros à sa droite qui fait face, aucune piece ne doit bouger, la poussee est invalide.
+
